@@ -1,0 +1,36 @@
+{
+    "name": "codereader",
+    "version": "1.0.0",
+    "description": "app that creates out from a txt, a redeable code asset with a certain theme, depending on the language that the txt is written",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "electron",
+      "app"
+    ],
+    "author": "Eduardo José Barrios García",
+    "license": "MIT",
+    "dependencies": {
+      "electron": "^16.0.0"
+    },
+    "homepage": ".",
+    "devDependencies": {
+      "electron-reload": "^2.0.0"
+    },
+    "build": {
+      "appId": "com.miapp.codereader",
+      "productName": "Code Reader",
+    },
+    "window": {
+      "title": "Code Reader",
+      "width": 800,
+      "height": 600,
+      "icon": "ruta/icon.png/algo.svg dependiendo",
+      "webPreferences": {
+        "nodeIntegration": true
+      }
+    }
+  }
+  
